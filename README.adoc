@@ -1,0 +1,6 @@
+
+Slimmer
+~~~~~~~
+
+Estimate the amount of disk space used by installed packages, including dependencies.
+

@@ -1,0 +1,7 @@
+*.pyc
+*.swp
+.tox
+build
+cover
+dist/
+docs/_build

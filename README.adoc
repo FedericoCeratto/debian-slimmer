@@ -4,5 +4,17 @@ Slimmer
 
 Estimate the amount of disk space used by installed packages, including dependencies.
 
+Usage:
+
+ slimmer.py [-h] [-d] [-n N] [--explore-var]
+ 
+ optional arguments:
+   -h, --help     show this help message and exit
+   -d, --debug    Show debugging output
+   -n N           Number of packages to display (default: 50)
+   --explore-var  Account for disk space used by /var/cache, /var/lib, /var/log
+                  It requires read access to /var/* (e.g. running as root)
+
+
 image::demo.gif[Success]
 
